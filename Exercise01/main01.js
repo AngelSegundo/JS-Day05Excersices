@@ -19,7 +19,10 @@ if (product.price> 100) {
     product.price = product.price - product.price*.1
 }
 
+if (product.dicountPercentage) {
+console.log(`We got some ${product.name} ON SALE for just ${product.price}, that's ${product.dicountPercentage}% off!`);
+
+}
 
 
-console.log(product);
 
